@@ -1,0 +1,12 @@
+# Ignorar executáveis compilados (arquivos sem extensão)
+*
+!*/
+!*.c
+!*.h
+!*.json
+!.gitignore
+!Makefile
+
+# Ignorar pastas temporárias do VS Code no Windows que possam vazar
+.history/
+.vscode-test/
