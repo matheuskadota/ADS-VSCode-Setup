@@ -5,6 +5,7 @@
 !*.h
 !*.json
 !.gitignore
+!.gitkeep
 !Makefile
 
 # Ignorar pastas temporárias do VS Code no Windows que possam vazar
