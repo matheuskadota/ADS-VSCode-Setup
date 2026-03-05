@@ -16,3 +16,4 @@ cp /mnt/c/Users/Mattk/Downloads/VSCode.png IMG/
 git add IMG/
 git commit -m feat: add images to IMG folder
 git push.png
+!README.md
