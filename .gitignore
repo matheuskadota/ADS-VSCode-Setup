@@ -11,3 +11,8 @@
 # Ignorar pastas temporárias do VS Code no Windows que possam vazar
 .history/
 .vscode-test/
+/home/kadota/VSCode
+cp /mnt/c/Users/Mattk/Downloads/VSCode.png IMG/
+git add IMG/
+git commit -m feat: add images to IMG folder
+git push.png
