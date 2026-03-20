@@ -7,13 +7,13 @@
 !.gitignore
 !.gitkeep
 !Makefile
+!README.md
 
-# Ignorar pastas temporárias do VS Code no Windows que possam vazar
+# Permitir imagens
+!*.png
+!*.jpg
+!*.gif
+
+# Ignorar pastas temporárias do VS Code
 .history/
 .vscode-test/
-/home/kadota/VSCode
-cp /mnt/c/Users/Mattk/Downloads/VSCode.png IMG/
-git add IMG/
-git commit -m feat: add images to IMG folder
-git push.png
-!README.md

@@ -14,6 +14,23 @@ Todo o código reside fisicamente no filesystem do **Fedora Linux 43 (WSL2)**, g
 
 ---
 
+## 🖥️ Ambiente
+
+| Componente | Detalhe |
+|---|---|
+| **CPU** | Intel Core i3-10100 @ 3.60 GHz (8 threads) |
+| **RAM** | 16 GB DDR4 |
+| **GPU** | NVIDIA GeForce RTX 3050 + Intel UHD 630 |
+| **OS** | Windows 11 Pro (25H2) + Fedora 43 WSL2 |
+| **Editor** | VS Code via WSL Extension |
+| **Compilador** | GCC (`/usr/bin/gcc`) |
+| **Debugger** | GDB (`/usr/sbin/gdb`) |
+| **Tema** | SynthWave '84 com Neon Glow |
+| **Ícones** | Material Icon Theme |
+| **Shell** | Zsh 5.9 + Starship |
+
+---
+
 ## ⚙️ Stack
 
 | Ferramenta | Função |
@@ -55,16 +72,28 @@ git clone https://github.com/matheuskadota/ADS_VSCode-Setup /home/kadota/VSCode
 code /home/kadota/VSCode
 ```
 
-### 3 — Extensões WSL necessárias
-Instalar no VS Code após abrir o workspace:
+### 3 — Extensões WSL (Fedora Linux 43) — 8 extensões
+Instalar no VS Code após conectar ao WSL:
 
 - C/C++ (Microsoft)
-- C/C++ Extension Pack
-- CMake Tools
-- Code Runner
-- Error Lens
-- SynthWave '84
-- Custom CSS and JS Loader
+- C/C++ DevTools (Microsoft)
+- C/C++ Extension Pack (Microsoft)
+- C/C++ Themes (Microsoft)
+- CMake Tools (Microsoft)
+- Code Runner (Jun Han)
+- GitHub Copilot Chat (GitHub)
+- Portuguese (Brazil) Language Pack (Microsoft)
+
+### 3b — Extensões Local (Windows) — 7 extensões
+Instalar no VS Code local (não no WSL):
+
+- C/C++ Themes (Microsoft)
+- Custom CSS and JS Loader (be5invis)
+- Error Lens (Alexander)
+- Material Icon Theme (Philipp Kief)
+- Portuguese (Brazil) Language Pack (Microsoft)
+- SynthWave '84 (Robb Owen)
+- WSL (Microsoft)
 
 ### 4 — Reativar o glow do SynthWave
 Após instalar as extensões:
